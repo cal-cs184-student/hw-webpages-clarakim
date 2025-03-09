@@ -43,7 +43,14 @@
 		-->
 
 		<h2>Overview</h2>
-		Give a high-level overview of what you implemented in this homework. Think about what you've built as a whole. Share your thoughts on what interesting things you've learned from completing the homework.
+		I started off with implementing Bezier curves and then Bezier surfaces, which were pretty straightforward and I was able to interpolate points
+		between control points in order to generate a smooth curve between the initial points.
+		Then, I moved onto the actual mesh features, working with half edges implementations; accessing half edges, vertices, edges, faces, etc and making sure
+		to keep track of them by drawing them in diagrams first. The pointers got confusing, but it was helpful to keep my diagram with labels nearby,
+		and I was able to keep referencing them as I was debugging. Using on the split and flip edges functions I implemented, I was able to 
+		finally call them in order to upsample my initial figure, subdividing edges in order to create a more highly rendered shapes and images. 
+		With this project, I was able to get a much better understanding of how the calculations are implemented in order to calculate Bezier curves as well as vertex/edge positions,
+		and understand the pointers to iterate between half edges.
 
 		<h2>Section I: Bezier Curves and Surfaces</h2>
 
