@@ -215,10 +215,20 @@
 		</p>
 
 		<br>
-		<figure>
-			<img src="part3/plane_rest.png" width="400px"/>
-			<figcaption>Cloth at rest on the plane</figcaption>
-		</figure>
+		<div style="display: flex; flex-direction: column; align-items: center;">
+			<table style="width: 100%; text-align: center; border-collapse: collapse;">
+			  <tr>
+				<td style="text-align: center;">
+				  <img src="part3/plane_rest.png" width="400px"/>
+				  <figcaption>Cloth at rest on the plane (wireframe)</figcaption>
+				</td>
+				<td style="text-align: center;">
+					<img src="part3/shade_rest.png" width="400px"/>
+					<figcaption>My texture shading on plane</figcaption>
+				  </td>
+			  </tr>				
+			</table>
+		</div>
 
 		<h2>Part 4: Handling self-collisions</h2>
 		For self-collision, I first implement spatial hashing and build a hash table that maps a float to a vector 
